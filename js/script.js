@@ -10,6 +10,8 @@ createApp({
     data() {
         return {
             active: 'active',
+            index: 0,
+            
             slides: [
                 {
                     image: 'img/01.webp',
@@ -41,7 +43,17 @@ createApp({
         }
     },
     methods: {
+        infiniteLoop(){
+            if(index > 0 ){
+                index--;
+                this[index].add('active')
+            }else {
+                index === index 
+                this[index].add('active')
         
+            }
+
+        }
      
 }
 }).mount('#app')

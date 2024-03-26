@@ -40,7 +40,7 @@
 }
 
 .thumb {
-    /* display: none; */
+
     height: calc((300px) / 5);
     opacity: 0.5;
 }
@@ -52,7 +52,6 @@
 }
 
 .thumb.active {
-    /* display: block; */
     border: 2px solid #ccc;
     opacity: 1;
 }
